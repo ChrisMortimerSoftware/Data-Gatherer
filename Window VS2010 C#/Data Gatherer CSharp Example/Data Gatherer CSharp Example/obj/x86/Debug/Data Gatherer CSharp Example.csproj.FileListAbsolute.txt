@@ -1,0 +1,14 @@
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\bin\Debug\Data Gatherer CSharp Example.exe
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\bin\Debug\Data Gatherer CSharp Example.pdb
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data_Gatherer_CSharp_Example.Main.resources
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data_Gatherer_CSharp_Example.Properties.Resources.resources
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data Gatherer CSharp Example.csproj.GenerateResource.Cache
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data Gatherer CSharp Example.exe
+C:\Users\Chris\documents\visual studio 2010\Projects\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data Gatherer CSharp Example.pdb
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data Gatherer CSharp Example.exe
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data Gatherer CSharp Example.pdb
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\bin\Debug\Data Gatherer CSharp Example.exe
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\bin\Debug\Data Gatherer CSharp Example.pdb
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data_Gatherer_CSharp_Example.Main.resources
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data_Gatherer_CSharp_Example.Properties.Resources.resources
+C:\Users\Chris\Documents\Visual Studio 2010\Data Gatherer CSharp Example\Data Gatherer CSharp Example\obj\x86\Debug\Data Gatherer CSharp Example.csproj.GenerateResource.Cache
