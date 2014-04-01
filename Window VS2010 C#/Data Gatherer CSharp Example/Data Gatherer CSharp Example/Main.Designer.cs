@@ -37,7 +37,13 @@
             this.time = new System.Windows.Forms.NumericUpDown();
             this.go = new System.Windows.Forms.Button();
             this.address = new System.Windows.Forms.TextBox();
+            this.Captured = new System.Windows.Forms.PictureBox();
+            this.getimage = new System.Windows.Forms.Button();
+            this.capture = new System.Windows.Forms.Button();
+            this.capname = new System.Windows.Forms.TextBox();
+            this.getname = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.time)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Captured)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -71,7 +77,7 @@
             // 
             this.SerialOutPut.Location = new System.Drawing.Point(12, 126);
             this.SerialOutPut.Name = "SerialOutPut";
-            this.SerialOutPut.Size = new System.Drawing.Size(288, 236);
+            this.SerialOutPut.Size = new System.Drawing.Size(288, 337);
             this.SerialOutPut.TabIndex = 4;
             this.SerialOutPut.Text = "";
             // 
@@ -140,11 +146,61 @@
             this.address.TabIndex = 9;
             this.address.Text = "http://www.google.co.uk";
             // 
+            // Captured
+            // 
+            this.Captured.Location = new System.Drawing.Point(306, 126);
+            this.Captured.Name = "Captured";
+            this.Captured.Size = new System.Drawing.Size(450, 337);
+            this.Captured.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Captured.TabIndex = 10;
+            this.Captured.TabStop = false;
+            // 
+            // getimage
+            // 
+            this.getimage.Location = new System.Drawing.Point(306, 100);
+            this.getimage.Name = "getimage";
+            this.getimage.Size = new System.Drawing.Size(77, 23);
+            this.getimage.TabIndex = 11;
+            this.getimage.Text = "Get Image";
+            this.getimage.UseVisualStyleBackColor = true;
+            this.getimage.Click += new System.EventHandler(this.getimage_Click);
+            // 
+            // capture
+            // 
+            this.capture.Location = new System.Drawing.Point(306, 71);
+            this.capture.Name = "capture";
+            this.capture.Size = new System.Drawing.Size(77, 23);
+            this.capture.TabIndex = 12;
+            this.capture.Text = "Cature";
+            this.capture.UseVisualStyleBackColor = true;
+            this.capture.Click += new System.EventHandler(this.capture_Click);
+            // 
+            // capname
+            // 
+            this.capname.Location = new System.Drawing.Point(389, 73);
+            this.capname.Name = "capname";
+            this.capname.Size = new System.Drawing.Size(180, 20);
+            this.capname.TabIndex = 13;
+            this.capname.Text = "Test.jpg";
+            // 
+            // getname
+            // 
+            this.getname.Location = new System.Drawing.Point(389, 100);
+            this.getname.Name = "getname";
+            this.getname.Size = new System.Drawing.Size(180, 20);
+            this.getname.TabIndex = 14;
+            this.getname.Text = "Test.jpg";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(310, 374);
+            this.ClientSize = new System.Drawing.Size(768, 475);
+            this.Controls.Add(this.getname);
+            this.Controls.Add(this.capname);
+            this.Controls.Add(this.capture);
+            this.Controls.Add(this.getimage);
+            this.Controls.Add(this.Captured);
             this.Controls.Add(this.address);
             this.Controls.Add(this.go);
             this.Controls.Add(this.time);
@@ -158,6 +214,7 @@
             this.Text = "Data Gatherer C# Example";
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.time)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Captured)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,6 +231,11 @@
         private System.Windows.Forms.NumericUpDown time;
         private System.Windows.Forms.Button go;
         private System.Windows.Forms.TextBox address;
+        private System.Windows.Forms.PictureBox Captured;
+        private System.Windows.Forms.Button getimage;
+        private System.Windows.Forms.Button capture;
+        private System.Windows.Forms.TextBox capname;
+        private System.Windows.Forms.TextBox getname;
     }
 }
 
